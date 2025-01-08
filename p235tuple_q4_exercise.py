@@ -1,0 +1,8 @@
+t1=(111,22,33,44,55)
+print(t1)
+list1=list(t1)
+x=int(input("enter pos=>"))
+y=int(input("enter value=>"))
+list1.insert(x,y)
+t1=tuple(list1)
+print(t1)

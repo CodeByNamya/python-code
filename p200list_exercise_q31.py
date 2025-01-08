@@ -1,0 +1,12 @@
+l1=['spiderman','thor','hulk','iron man','captain america']
+print(l1)
+print("length of list is",len(l1))
+l1.append('black panther')
+print(l1)
+l1.remove('black panther')
+print(l1)
+l1.insert(3, "black panther")
+print(l1)
+l1.pop(1)
+l1.pop(1)
+print(l1)
